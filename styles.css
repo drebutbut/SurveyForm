@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+body{
+  background-image: linear-gradient(
+      115deg,
+      rgba(16, 146, 227, 0.7),
+      rgba(86, 176, 232, 0.5)
+    ),
+    url(https://miro.medium.com/max/1400/0*ewKSYjKYjJ9C0j57);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.title-section{
+  text-align: center;
+  padding: 50px;
+  color: white;
+}
+
+.form-section{
+  width: 60%;
+  margin: auto;
+  background: rgba(35, 48, 99, 0.9);
+  padding: 15px;
+  border-radius: 25px;
+}
+
+#survey-form{
+  padding: 25px;
+  color: white;
+}
+
+.input-text{
+  width: 100%;
+  padding: 5px;
+}
+
+.form-list{
+  margin-top: 15px;
+}
+
+#submit{
+  width: 100%;
+  height: 35px;
+  background-color: #00AB39;
+  color: white;
+  border-radius: 25px;
+  border: none;
+}
+
+#submit:hover{
+  background-color: #006B24;
+}
+
+textarea{
+  width: 100%;
+}
